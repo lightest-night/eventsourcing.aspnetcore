@@ -4,7 +4,7 @@ using System.Reflection;
 using LightestNight.EventSourcing.Events;
 using Microsoft.AspNetCore.Builder;
 
-namespace LightestNight.System.EventSourcing.AspNetCore
+namespace LightestNight.EventSourcing.AspNetCore
 {
     public static class ExtendsApplicationBuilder
     {
