@@ -9,10 +9,10 @@
     </PropertyGroup>
 
     <PropertyGroup>
-        <PackageId>LightestNight.System.EventSourcing.AspNetCore</PackageId>
+        <PackageId>LightestNight.EventSourcing.AspNetCore</PackageId>
         <Authors>James Woodley</Authors>
         <Company>LightestNight Ltd</Company>
-        <Title>LightestNight :: System :: Event Sourcing :: Asp Net Core</Title>
+        <Title>LightestNight :: Event Sourcing :: Asp Net Core</Title>
         <Description>Allows the addition of Event assemblies during the startup of an ASP .Net Core application.</Description>
         <PackageTags>lightestnight;system;infrastructure;event;event sourcing;domain driven design;cqrs;asp;.net;core</PackageTags>
         <Version>1.0.0</Version>
@@ -21,7 +21,7 @@
         <FileVersion>1.0.0</FileVersion>
         <InformationalVersion>1.0.0</InformationalVersion>
         <PackageIcon>icon.jpeg</PackageIcon>
-        <RepositoryUrl>https://github.com/lightestnight/system.eventsourcing.aspnetcore</RepositoryUrl>
+        <RepositoryUrl>https://github.com/lightestnight/eventsourcing.aspnetcore</RepositoryUrl>
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
     </PropertyGroup>
 
@@ -34,7 +34,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <PackageReference Include="LightestNight.System.EventSourcing" Version="5.0.0" />
+      <PackageReference Include="LightestNight.EventSourcing" Version="6.0.0" />
       <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
     </ItemGroup>
 
