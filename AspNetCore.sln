@@ -6,6 +6,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Workflows", "Workflows", "{
 ProjectSection(SolutionItems) = preProject
 	.github\workflows\CI.yml = .github\workflows\CI.yml
 	.github\workflows\Release.yml = .github\workflows\Release.yml
+	.github\workflows\Artifact Cleanup.yml = .github\workflows\Artifact Cleanup.yml
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3ABE045-B37E-45B9-94FF-E5C626271D51}"
